@@ -1,0 +1,9 @@
+[color]
+	ui = true
+[user]
+	name = Peter Chu
+	email = cgpchu@uwaterloo.ca
+[alias]
+	co = checkout
+[core]
+	editor = vim
