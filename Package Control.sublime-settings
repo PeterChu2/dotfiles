@@ -1,0 +1,27 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"BeautifyRuby",
+		"BracketHighlighter",
+		"Emmet",
+		"EvercodeLab Sublime Snippets",
+		"Git",
+		"HTML Snippets",
+		"JavaScript Snippets",
+		"LoremGibson",
+		"Package Control",
+		"RubyTest",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeGDB",
+		"SublimeLinter",
+		"Twitter Bootstrap Snippets",
+		"Unittest (python)",
+		"UnitTesting",
+		"Xdebug Client"
+	]
+}
