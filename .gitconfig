@@ -1,9 +1,31 @@
 [color]
-	ui = true
+  ui = true
+  diff = auto
 [user]
-	name = Peter Chu
-	email = cgpchu@uwaterloo.ca
+  name = Peter Chu
+  email = cgpchu@uwaterloo.ca
 [alias]
-	co = checkout
+  a  = add
+  aa = add -A
+  cm = commit -m
+  cam = commit -am
+  co = checkout
+  cb = checkout -b
+  cp = cherry-pick
+  d  = diff
+  dm = diff master
+  dw = diff --color-words
+  dc = diff --cached
+  ds = diff --staged
+  d1 = diff HEAD~
+  d2 = diff HEAD~~
+  d3 = diff HEAD~~~
+  f  = fetch
+  m  = merge
+  p  = pull
+  ps = push
+  psu = push --set-upstream
+  s  = status
+  tree = log --graph --pretty='format:%C(yellow)%h%Creset %s %Cgreen(%an)%Creset %Cred%d%Creset'
 [core]
 	editor = vim
