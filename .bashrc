@@ -122,3 +122,7 @@ fi
 # Configure these shortcuts to appropriate paths
 #alias slime="/opt/sublime_text/sublime_text"
 #alias sub="/opt/sublime_text/sublime_text"
+
+alias ..="cd .."
+alias ....="cd ../.."
+alias ......="cd ../../.."
