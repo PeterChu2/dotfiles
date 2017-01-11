@@ -16,8 +16,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=10000
+HISTFILESIZE=20000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -105,6 +105,7 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -120,9 +121,27 @@ fi
 #source ~/.rvm/scripts/rvm
 
 # Configure these shortcuts to appropriate paths
-#alias slime="/opt/sublime_text/sublime_text"
-#alias sub="/opt/sublime_text/sublime_text"
+alias slime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias sub="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 alias ..="cd .."
 alias ....="cd ../.."
 alias ......="cd ../../.."
+
+source ~/git-completion.bash
+source ~/git-prompt.sh
+
+eval $(thefuck --alias)
+
+alias gs="git status"
+
+export LD_LIBRARY_PATH=/Users/peterchu/dev/ece351/ece351-labs/src
+
+export EDITOR=vim
+export VISUAL=vim
+
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFh'
